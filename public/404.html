@@ -1,26 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sappnett - Internet Service Provider</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internet Down? WiFi Not Working? Emergency Internet Troubleshooting | Sappnett</title>
+    <meta name="description" content="Internet not working? WiFi problems? Get instant internet troubleshooting support. End internet outages, wifi down situations, and connection problems with Sappnett's reliable fiber internet. Emergency internet support available 24/7." />
+    <meta name="keywords" content="internet down, wifi not working, internet problems, wifi down, internet troubleshooting, internet outage, no internet connection, wifi keeps dropping, internet is not working, emergency internet support" />
+    <meta name="author" content="Sappnett" />
+
+    <meta property="og:title" content="Internet Down? WiFi Not Working? Get Emergency Help | Sappnett" />
+    <meta property="og:description" content="Stop dealing with internet problems! Get instant help when your internet is down, wifi not working, or experiencing connection issues. 24/7 emergency internet troubleshooting support." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/placeholder.svg" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@sappnett" />
+    <meta name="twitter:title" content="Internet Down? WiFi Problems? Get Emergency Internet Support" />
+    <meta name="twitter:description" content="End internet outages and wifi issues forever. Emergency internet troubleshooting available 24/7 when your internet is not working." />
+    <meta name="twitter:image" content="/placeholder.svg" />
+    <!-- Handle GitHub Pages routing -->
     <script>
-        // This script handles client-side routing for GitHub Pages
-        // It redirects all routes to index.html to let React Router handle them
-        var pathSegmentsToKeep = 1;
-        var l = window.location;
-        l.replace(
-            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-            l.pathname.split('/').slice(0, 1 + pathSegmentsToKeep).join('/') + '/?/' +
-            l.pathname.slice(1).split('/').slice(pathSegmentsToKeep).join('/').replace(/&/g, '~and~') +
-            (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-            l.hash
-        );
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname + decoded + l.hash
+          );
+        }
+      }(window.location))
     </script>
-</head>
-<body>
-    <div style="display: flex; justify-content: center; align-items: center; height: 100vh; font-family: Arial, sans-serif;">
-        <div>Redirecting...</div>
-    </div>
-</body>
+  </head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
