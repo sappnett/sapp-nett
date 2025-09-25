@@ -18,18 +18,9 @@
     <meta name="twitter:title" content="Internet Down? WiFi Problems? Get Emergency Internet Support" />
     <meta name="twitter:description" content="End internet outages and wifi issues forever. Emergency internet troubleshooting available 24/7 when your internet is not working." />
     <meta name="twitter:image" content="/placeholder.svg" />
-    <!-- Handle GitHub Pages routing -->
     <script>
-      (function(l) {
-        if (l.search[1] === '/' ) {
-          var decoded = l.search.slice(1).split('&').map(function(s) { 
-            return s.replace(/~and~/g, '&')
-          }).join('?');
-          window.history.replaceState(null, null,
-              l.pathname + decoded + l.hash
-          );
-        }
-      }(window.location))
+      // Simple redirect to home page for 404s on custom domain
+      window.location.replace('/');
     </script>
   </head>
 
