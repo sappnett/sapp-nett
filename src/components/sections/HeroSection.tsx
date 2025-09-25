@@ -18,7 +18,7 @@ export function HeroSection() {
               minHeight: '100%'
             }}
         >
-          <source src="/src/assets/hero bg.mp4" type="video/mp4" />
+          <source src="/hero-bg.mp4" type="video/mp4" />
           {/* Fallback to gradient background if video fails to load */}
         </video>
         <div className="absolute inset-0 bg-black/50 sm:bg-black/40" />
