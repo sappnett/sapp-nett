@@ -65,7 +65,7 @@ export function HeroSection() {
                 className="bg-white text-black hover:bg-gray-100 font-medium px-5 py-2 text-sm rounded-lg shadow-sm transition-all w-full sm:w-auto"
                 asChild
               >
-                <Link to="/services">
+                <Link to="+18774968608">
                   Check Availability
                   <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
