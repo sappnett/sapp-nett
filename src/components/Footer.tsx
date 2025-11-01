@@ -91,7 +91,7 @@ export function Footer() {
                       className="underline hover:text-primary transition"
                     >
                       +1 (877) 419-5028
-                    </a>/
+                    </a> <br>
                         <a 
                       href="tel:+18774968608" 
                       className="underline hover:text-primary transition"
