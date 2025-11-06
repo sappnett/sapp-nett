@@ -44,7 +44,7 @@ function InternetFixSection() {
             href="tel:+18774968608"
             className="underline hover:text-primary/80 transition block sm:inline mt-1 sm:mt-0"
           >
-           +1(877) 496-8608
+            +1(877) 496-8608
           </a>
         </p>
        
