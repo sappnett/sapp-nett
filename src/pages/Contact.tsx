@@ -13,7 +13,7 @@ const contactMethods = [
     description: "Speak with our experts",
     contact: "+1 (877) 496-8608",
     action: "Call Now",
-    href: "tel:+18774195028",
+    href: "tel:+18774968608",
   },
   {
     icon: Mail,
