@@ -255,10 +255,10 @@ const Services = () => {
 					<p className="text-lg text-primary font-semibold mb-8">
 						Call us:{" "}
 						<a
-							href="tel:+18774195028"
+							href="tel:+18883140268"
 							className="underline hover:text-primary/80 transition"
 						>
-							+1 (877) 419-5028
+							(888) 314-0268
 						</a>
 					</p>
 				</div>

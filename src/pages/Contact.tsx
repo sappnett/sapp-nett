@@ -11,9 +11,9 @@ const contactMethods = [
     icon: Phone,
     title: "Call Us",
     description: "Speak with our experts",
-    contact: "+1 (877) 496-8608",
+    contact: "(888) 314-0268",
     action: "Call Now",
-    href: "tel:+18774968608",
+    href: "tel:+18883140268",
   },
   {
     icon: Mail,
