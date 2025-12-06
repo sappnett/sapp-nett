@@ -130,7 +130,7 @@ const TermsAndConditions = () => (
           <div className="mt-4 p-4 bg-primary/10 rounded-lg">
             <p className="text-primary font-semibold">Sappnett Legal Department</p>
             <p className="text-muted-foreground">Email: legal@sappnett.com</p>
-            <p className="text-muted-foreground">Phone: <a href="tel:+18883140268" className="underline hover:text-primary">(888) 314-0268</a></p>
+            <p className="text-muted-foreground">Phone: <a href="tel:8664550846" className="underline hover:text-primary">(866) 455-0846</a></p>
             <p className="text-muted-foreground">Address: 123 Network Drive, Tech City, TC 12345</p>
           </div>
         </section>

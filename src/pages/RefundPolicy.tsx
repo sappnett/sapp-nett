@@ -46,7 +46,7 @@ const RefundPolicy = () => (
           <div className="space-y-3 ml-4">
             <div className="flex items-start gap-3">
               <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center text-white font-bold text-sm">1</div>
-              <p className="text-muted-foreground">Contact our customer service team at <a href="tel:+18883140268" className="underline text-primary">(888) 314-0268</a></p>
+              <p className="text-muted-foreground">Contact our customer service team at <a href="tel:8664550846" className="underline text-primary">(866) 455-0846</a></p>
             </div>
             <div className="flex items-start gap-3">
               <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center text-white font-bold text-sm">2</div>
@@ -98,7 +98,7 @@ const RefundPolicy = () => (
           <div className="mt-4 p-4 bg-primary/10 rounded-lg">
             <p className="text-primary font-semibold">Sappnett Customer Service</p>
             <p className="text-muted-foreground">Email: billing@sappnett.com</p>
-            <p className="text-muted-foreground">Phone: <a href="tel:+18883140268" className="underline hover:text-primary">(888) 314-0268</a></p>
+            <p className="text-muted-foreground">Phone: <a href="tel:8664550846" className="underline hover:text-primary">(866) 455-0846</a></p>
             <p className="text-muted-foreground">Hours: Monday-Sunday, 24/7 Support</p>
           </div>
         </section>

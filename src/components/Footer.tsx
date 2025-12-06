@@ -87,16 +87,16 @@ export function Footer() {
                   <span>
                     Emergency Internet Support:{" "}
                     <a 
-                      href="tel:+18883140268" 
+                      href="tel:8664550846" 
                       className="underline hover:text-primary transition"
                     >
-                      (888) 314-0268
+                      (866) 455-0846
                     </a> /
                         <a 
-                      href="tel:+18883140268" 
+                      href="tel:8664550846" 
                       className="underline hover:text-primary transition"
                     >
-                      (888) 314-0268
+                      (866) 455-0846
                     </a>
                   </span>
                 </div>

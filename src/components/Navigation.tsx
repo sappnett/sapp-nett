@@ -48,7 +48,7 @@ export function Navigation() {
               </Link>
             ))}
             <Button variant="default" className="bg-gradient-neon glow-primary hover:glow-secondary" asChild>
-              <Link to="/services"> (888) 314-0268</Link>
+              <a href="tel:8664550846">(866) 455-0846</a>
             </Button>
           </div>
 
