@@ -67,7 +67,7 @@ export function Navigation() {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden absolute top-16 left-0 right-0 bg-transparent border-t border-white/20">
+          <div className="md:hidden absolute top-16 left-0 right-0 bg-slate-900/95 backdrop-blur-md border-t border-white/20">
             <div className="py-4 space-y-1 px-4">
               {navItems.map((item) => (
                 <Link

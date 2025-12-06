@@ -39,9 +39,9 @@ const socialLinks = [
 export function Footer() {
   return (
     <footer className="bg-gradient-surface border-t border-neon">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-4">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         {/* Newsletter Section */}
-        <div className="py-8 sm:py-12 lg:py-16 border-b border-muted/20">
+        <div className="py-10 sm:py-12 lg:py-16 border-b border-muted/20">
           <div className="max-w-4xl mx-auto text-center">
             <h3 className="text-xl sm:text-2xl lg:text-3xl font-orbitron font-bold mb-4">
               Never Experience <span className="text-gradient-neon">Internet Problems</span> Again

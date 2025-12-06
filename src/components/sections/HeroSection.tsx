@@ -65,10 +65,7 @@ export function HeroSection() {
                 className="bg-white text-black hover:bg-gray-100 font-medium px-5 py-2 text-sm rounded-lg shadow-sm transition-all w-full sm:w-auto"
                 asChild
               >
-                <Link to="/contact">
-                  Check Availability
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
+                <a href="tel:8664550846">(866) 455-0846</a>
               </Button>
             </div>
 

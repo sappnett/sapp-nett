@@ -24,7 +24,7 @@ const App = () => (
       <Sonner />
       <BrowserRouter>
         <ScrollToTop />
-        <div className="min-h-screen bg-gradient-hero">
+        <div className="min-h-screen bg-gradient-hero overflow-x-hidden">
           <Navigation />
           <Routes>
             <Route path="/" element={<Index />} />
