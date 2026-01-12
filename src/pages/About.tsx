@@ -145,7 +145,7 @@ const About = () => {
               backed by exceptional support.
             </p>
             <Button size="lg" className="bg-gradient-neon glow-primary hover:glow-secondary hover-lift" asChild>
-              <Link to="/contact">Get Started Today</Link>
+              <a href="tel:8774969657">Call Now: (877) 496-9657</a>
             </Button>
           </div>
         </div>

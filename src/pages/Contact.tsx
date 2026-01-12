@@ -11,9 +11,9 @@ const contactMethods = [
     icon: Phone,
     title: "Call Us",
     description: "Speak with our experts",
-    contact: "(866) 455-0846",
+    contact: "(877) 496-9657",
     action: "Call Now",
-    href: "tel:+18883140268",
+    href: "tel:8774969657",
   },
   {
     icon: Mail,

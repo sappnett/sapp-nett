@@ -39,20 +39,20 @@ export function CTABanner() {
               className="bg-gradient-neon glow-primary hover:glow-secondary hover-lift px-8 sm:px-12 py-4 sm:py-6 text-base sm:text-lg lg:text-xl font-semibold w-full sm:w-auto"
               asChild
             >
-              <Link to="/contact">
-                Get Started Now
+              <a href="tel:8774969657">
+                Call Now: (877) 496-9657
                 <ArrowRight className="ml-3 h-6 w-6" />
-              </Link>
+              </a>
             </Button>
             <Button 
               size="lg" 
               variant="outline" 
-              className="border-neon hover:bg-primary/10 hover-lift px-12 py-6 text-xl font-semibold"
+              className="border-neon hover:bg-primary/10 hover-lift px-12 py-6 text-xl font-semibold w-full sm:w-auto"
               asChild
             >
-              <Link to="/services">
+              <Link to="/contact">
                 <Zap className="mr-3 h-6 w-6" />
-                Check Availability
+                Get Started
               </Link>
             </Button>
           </div>

@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
-import { Zap, Globe, Shield, Wifi, Database, Clock, Headphones, Award } from "lucide-react";
+import { Zap, Globe, Shield, Wifi, Database, Clock, Headphones, Award, Phone } from "lucide-react";
 import { Footer } from "@/components/Footer";
 import { Link } from "react-router-dom";
 
@@ -242,10 +242,10 @@ const Features = () => {
           <div className="text-center mt-12">
             <p className="text-muted-foreground mb-6">Still have questions?</p>
             <Button className="bg-gradient-neon glow-primary hover:glow-secondary hover-lift" asChild>
-              <Link to="/contact">
-                <Headphones className="mr-2 h-5 w-5" />
-                Contact Support
-              </Link>
+              <a href="tel:8774969657">
+                <Phone className="mr-2 h-5 w-5" />
+                Call: (877) 496-9657
+              </a>
             </Button>
           </div>
         </div>

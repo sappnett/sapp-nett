@@ -41,10 +41,10 @@ function InternetFixSection() {
         <p className="text-base sm:text-lg text-primary font-semibold mb-6 sm:mb-8 px-4">
           Emergency Internet Support - Call us immediately:{" "}
           <a
-            href="tel:+18883140268"
+            href="tel:8774969657"
             className="underline hover:text-primary/80 transition block sm:inline mt-1 sm:mt-0"
           >
-            (866) 455-0846
+            (877) 496-9657
           </a>
         </p>
        
@@ -62,7 +62,7 @@ function InternetFixSection() {
         </div>
         <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 justify-center items-center max-w-2xl mx-auto">
           <a
-            href="tel:+18883140268"
+            href="tel:8774969657"
             className="bg-primary text-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold shadow-lg hover:bg-primary/80 transition-all w-full sm:w-auto text-sm sm:text-base"
           >
             Emergency Internet Support

@@ -65,7 +65,7 @@ export function HeroSection() {
                 className="bg-white text-black hover:bg-gray-100 font-medium px-5 py-2 text-sm rounded-lg shadow-sm transition-all w-full sm:w-auto"
                 asChild
               >
-                <a href="tel:8664550846">(866) 455-0846</a>
+                <a href="tel:8774969657">(877) 496-9657</a>
               </Button>
             </div>
 

@@ -146,7 +146,7 @@ const Services = () => {
 												{service.price}
 											</span>
 											<Button className="bg-gradient-neon glow-primary hover:glow-secondary" asChild>
-												<Link to="/contact">Learn More</Link>
+												<a href="tel:8774969657">Call Now</a>
 											</Button>
 										</div>
 									</div>
@@ -194,7 +194,7 @@ const Services = () => {
 									className="border-neon hover:bg-primary/10"
 									asChild
 								>
-									<Link to="/contact">Add to Plan</Link>
+									<a href="tel:8774969657">Call to Add</a>
 								</Button>
 							</Card>
 						))}
@@ -258,7 +258,7 @@ const Services = () => {
 							href="tel:+18883140268"
 							className="underline hover:text-primary/80 transition"
 						>
-							(866) 455-0846
+							(877) 496-9657
 						</a>
 					</p>
 				</div>
