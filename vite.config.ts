@@ -7,6 +7,10 @@ export default defineConfig({
   server: {
     host: "::",
     port: 8080,
+    middlewareMode: false,
+    headers: {
+      "Content-Type": "application/javascript",
+    },
   },
   plugins: [react()],
   resolve: {
@@ -17,12 +21,18 @@ export default defineConfig({
   build: {
     outDir: "dist",
     assetsDir: "assets",
+    copyPublicDir: true,
     rollupOptions: {
       output: {
         manualChunks: undefined,
         entryFileNames: "assets/[name]-[hash].js",
         chunkFileNames: "assets/[name]-[hash].js",
-        assetFileNames: "assets/[name]-[hash].[ext]",
+        assetFileNames: (assetInfo) => {
+          if (assetInfo.name === "favicon.svg") {
+            return "favicon.svg";
+          }
+          return "assets/[name]-[hash].[ext]";
+        },
       },
     },
   },
