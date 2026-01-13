@@ -9,7 +9,7 @@ const testimonials = [
 		title: "Remote Work Professional",
 		location: "Digital City",
 		rating: 5,
-		text: "Before Sappnett, internet down issues ruined my work calls constantly. Now I never worry about wifi not working during important meetings. Their internet troubleshooting support is incredible!",
+		text: "Sappnett gave me the guidance I needed to choose the right internet service. They explained all my options clearly and I finally understand what I'm paying for.",
 		avatar: "SJ",
 	},
 	{
@@ -17,7 +17,7 @@ const testimonials = [
 		title: "Small Business Owner",
 		location: "Tech Valley",
 		rating: 5,
-		text: "Used to lose thousands when internet connection problems hit our e-commerce site. Since switching to Sappnett, no internet outages, no lost sales. Their internet troubleshooting team prevented disaster!",
+		text: "I contacted Sappnett for independent advice on internet services. Their unbiased guidance helped me make an informed decision for my business. Highly trustworthy.",
 		avatar: "MC",
 	},
 	{
@@ -25,23 +25,23 @@ const testimonials = [
 		title: "Content Creator",
 		location: "Creative Commons",
 		rating: 5,
-		text: "Internet problems were killing my channel - uploads failing, streams crashing. Sappnett solved my wifi not working issues permanently. No more internet connectivity problems!",
+		text: "The team at Sappnett took time to understand my needs and provided expert guidance without any sales pressure. Completely transparent and helpful.",
 		avatar: "ER",
 	},
 	{
 		name: "David Thompson",
-		title: "Gaming Enthusiast",
-		location: "Gamer's Paradise",
+		title: "Student",
+		location: "Education Hub",
 		rating: 5,
-		text: "Tired of internet down ruining ranked matches? Sappnett ended my internet connection problems forever. No lag, no disconnects, just pure gaming perfection!",
+		text: "I was confused about internet options and found Sappnett's independent guidance invaluable. They helped me understand the technical stuff in plain language.",
 		avatar: "DT",
 	},
 	{
 		name: "Lisa Wang",
-		title: "Family of 5",
+		title: "Homeowner",
 		location: "Suburban Heights",
 		rating: 5,
-		text: "With kids always saying 'wifi not working!' and work calls dropping, internet problems were a nightmare. Sappnett's reliable connection ended our internet troubleshooting days!",
+		text: "Sappnett's support team was available whenever I had questions. Their independent perspective helped me avoid a bad decision. I recommend them to everyone.",
 		avatar: "LW",
 	},
 ];
@@ -80,12 +80,11 @@ export function Testimonials() {
 			<div className="container mx-auto px-4 sm:px-6 lg:px-4">
 				<div className="text-center mb-12 sm:mb-16 animate-fade-in">
 					<h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-orbitron font-bold mb-4 sm:mb-6">
-						No More{" "}
-						<span className="text-gradient-neon">Internet Problems</span>
+						Trusted by{" "}
+						<span className="text-gradient-neon">Real Users</span>
 					</h2>
 					<p className="text-sm sm:text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto px-4">
-						Real customers sharing how Sappnett solved their internet down, wifi not working, 
-						and internet connection problems permanently.
+						Hear from real people who used Sappnett for independent guidance on internet and cable services. They appreciate our transparent, unbiased approach.
 					</p>
 				</div>
 

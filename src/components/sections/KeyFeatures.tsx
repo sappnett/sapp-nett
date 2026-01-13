@@ -4,31 +4,31 @@ import { Database, Wrench, Wifi, Shield } from "lucide-react";
 const keyFeatures = [
 	{
 		icon: Database,
-		title: "No Internet Connection Limits",
+		title: "Expert Guidance & Support",
 		description:
-			"Unlimited data means no more internet trouble due to data caps. Stream, work, and browse without worrying about connection throttling or internet service disruption.",
-		highlight: "Truly Unlimited",
+			"Get comprehensive guidance on internet and cable service options. Our independent team helps you understand features, compatibility, and optimization without selling anything.",
+		highlight: "Knowledge-Based",
 	},
 	{
 		icon: Wrench,
-		title: "Emergency Setup & Repair",
+		title: "Technical Assistance",
 		description:
-			"Professional installation and emergency internet troubleshooting by certified technicians. When your internet is down, we'll get you back online fast.",
-		highlight: "24/7 Support",
+			"Our independent experts provide guidance on setup, configuration, and general troubleshooting. We help you understand your equipment and services better.",
+		highlight: "24/7 Available",
 	},
 	{
 		icon: Wifi,
-		title: "No More WiFi Problems",
+		title: "Service Optimization Advice",
 		description:
-			"Advanced WiFi 6 routers eliminate wifi not working issues and wifi connection drops. Superior coverage prevents wireless network down situations.",
-		highlight: "Latest Technology",
+			"Learn how to optimize your existing internet and cable services. Get unbiased recommendations on equipment, settings, and best practices for better performance.",
+		highlight: "Transparent Help",
 	},
 	{
 		icon: Shield,
-		title: "Outage-Resistant Network",
+		title: "Unbiased Information",
 		description:
-			"Enterprise-grade infrastructure prevents internet outages with redundant connections and automatic failover protection against service disruptions.",
-		highlight: "Maximum Uptime",
+			"Access independent information about internet and cable services in your area. We provide transparent guidance with no hidden affiliations or sales motives.",
+		highlight: "100% Independent",
 	},
 ];
 
@@ -38,11 +38,11 @@ export function KeyFeatures() {
 			<div className="container mx-auto px-4 sm:px-6 lg:px-4">
 				<div className="text-center mb-12 sm:mb-16 animate-fade-in">
 					<h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-orbitron font-bold mb-4 sm:mb-6">
-						Stop{" "}
-						<span className="text-gradient-neon">Internet Issues</span> Today
+						Comprehensive{" "}
+						<span className="text-gradient-neon">Guidance & Assistance</span>
 					</h2>
 					<p className="text-sm sm:text-lg lg:text-xl text-muted-foreground max-w-3xl mx-auto px-4">
-						Every Sappnett plan includes advanced features to prevent internet problems, wifi outages, and connection failures. No more emergency internet troubleshooting needed.
+						Sappnett provides independent guidance on internet and cable services. Our team offers expert support to help you understand, optimize, and get the best value from your services.
 					</p>
 				</div>
 
@@ -83,8 +83,8 @@ export function KeyFeatures() {
 				<div className="mt-12 sm:mt-16 lg:mt-20">
 					<div className="text-center mb-8 sm:mb-12">
 						<h3 className="text-xl sm:text-2xl font-orbitron font-bold mb-4">
-							Plus Many More{" "}
-							<span className="text-gradient-neon">Benefits</span>
+							Why Choose{" "}
+							<span className="text-gradient-neon">Sappnett</span>
 						</h3>
 					</div>
 
@@ -94,26 +94,26 @@ export function KeyFeatures() {
 								24/7
 							</div>
 							<div className="text-xs sm:text-sm text-muted-foreground">
-								Technical Support
+								Always Available
 							</div>
 						</div>
 						<div className="text-center p-3 sm:p-4 glass rounded-lg border-neon hover-lift">
 							<div className="text-lg sm:text-2xl font-orbitron font-bold text-gradient-neon mb-1 sm:mb-2">
-								99.9%
+								100%
 							</div>
-							<div className="text-xs sm:text-sm text-muted-foreground">Uptime SLA</div>
+							<div className="text-xs sm:text-sm text-muted-foreground">Independent</div>
 						</div>
 						<div className="text-center p-3 sm:p-4 glass rounded-lg border-neon hover-lift">
 							<div className="text-lg sm:text-2xl font-orbitron font-bold text-gradient-neon mb-1 sm:mb-2">
-								30-Day
+								Expert
 							</div>
-							<div className="text-xs sm:text-sm text-muted-foreground">Money Back</div>
+							<div className="text-xs sm:text-sm text-muted-foreground">Support Team</div>
 						</div>
 						<div className="text-center p-3 sm:p-4 glass rounded-lg border-neon hover-lift">
 							<div className="text-lg sm:text-2xl font-orbitron font-bold text-gradient-neon mb-1 sm:mb-2">
-								FREE
+								Trusted
 							</div>
-							<div className="text-xs sm:text-sm text-muted-foreground">Equipment</div>
+							<div className="text-xs sm:text-sm text-muted-foreground">By Many Users</div>
 						</div>
 					</div>
 				</div>

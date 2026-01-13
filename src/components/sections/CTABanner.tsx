@@ -17,19 +17,19 @@ export function CTABanner() {
           {/* Badge */}
           <div className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 rounded-full glass border-neon mb-6 sm:mb-8 animate-fade-in">
             <Star className="w-4 h-4 sm:w-5 sm:h-5 text-yellow-400 mr-2" />
-            <span className="text-xs sm:text-sm font-medium">Join 50,000+ Satisfied Customers</span>
+            <span className="text-xs sm:text-sm font-medium">Trusted by 25,000+ Users</span>
           </div>
 
           {/* Main Heading */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-6xl font-orbitron font-bold mb-4 sm:mb-6 animate-slide-up">
-            No More <span className="text-gradient-neon">Internet Problems</span>
+            Get Independent <span className="text-gradient-neon">Service Guidance</span>
             <br className="hidden sm:block" />
-            <span className="sm:hidden"><br /></span>Switch to Reliable Internet!
+            Available 24/7
           </h2>
 
           {/* Subtext */}
           <p className="text-sm sm:text-lg md:text-xl lg:text-2xl text-muted-foreground mb-8 sm:mb-12 max-w-3xl mx-auto leading-relaxed animate-slide-up px-4" style={{ animationDelay: "0.2s" }}>
-            Stop dealing with wifi not working, internet outages, and connection problems. Get ultra-fast fiber internet with 24/7 emergency internet troubleshooting support. No more "internet is down" emergencies!
+            Need help understanding your internet or cable services? Our independent team provides unbiased guidance and informational support to help you navigate your service options and resolve common questions.
           </p>
 
           {/* CTA Buttons */}
@@ -40,7 +40,7 @@ export function CTABanner() {
               asChild
             >
               <a href="tel:8774969657">
-                Call Now: (877) 496-9657
+                Call for Guidance: (877) 496-9657
                 <ArrowRight className="ml-3 h-6 w-6" />
               </a>
             </Button>
@@ -52,7 +52,7 @@ export function CTABanner() {
             >
               <Link to="/contact">
                 <Zap className="mr-3 h-6 w-6" />
-                Get Started
+                Request Support
               </Link>
             </Button>
           </div>

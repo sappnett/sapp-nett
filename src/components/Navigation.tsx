@@ -1,13 +1,14 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Zap } from "lucide-react";
+import { Menu, X, Zap, Phone } from "lucide-react";
 
 const navItems = [
   { name: "Home", path: "/" },
   { name: "About", path: "/about" },
   { name: "Services", path: "/services" },
   { name: "Features", path: "/features" },
+  { name: "FAQ", path: "/faq" },
   { name: "Contact", path: "/contact" },
 ];
 
@@ -47,8 +48,11 @@ export function Navigation() {
                 )}
               </Link>
             ))}
-            <Button variant="default" className="bg-gradient-neon glow-primary hover:glow-secondary" asChild>
-              <a href="tel:8774969657">(877) 496-9657</a>
+            <Button variant="default" className="bg-gradient-neon glow-primary hover:glow-secondary flex items-center gap-2" asChild>
+              <a href="tel:8774969657" className="flex items-center gap-2">
+                <Phone className="h-4 w-4" />
+                <span>(877) 496-9657</span>
+              </a>
             </Button>
           </div>
 
@@ -83,14 +87,25 @@ export function Navigation() {
                   {item.name}
                 </Link>
               ))}
-              <div className="pt-4">
+              <div className="pt-4 space-y-2">
                 <Button 
                   variant="default" 
-                  className="w-full bg-gradient-neon glow-primary hover:glow-secondary"
+                  className="w-full bg-gradient-neon glow-primary hover:glow-secondary flex items-center justify-center gap-2"
                   onClick={() => setIsOpen(false)}
                   asChild
                 >
-                  <Link to="/contact">Get Started</Link>
+                  <a href="tel:8774969657" className="flex items-center justify-center gap-2">
+                    <Phone className="h-4 w-4" />
+                    <span>(877) 496-9657</span>
+                  </a>
+                </Button>
+                <Button 
+                  variant="outline" 
+                  className="w-full"
+                  onClick={() => setIsOpen(false)}
+                  asChild
+                >
+                  <Link to="/contact">Contact Us</Link>
                 </Button>
               </div>
             </div>

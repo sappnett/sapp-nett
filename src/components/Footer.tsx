@@ -11,10 +11,10 @@ const footerLinks = {
     { name: "Contact", href: "/contact" },
   ],
   services: [
-    { name: "Residential Internet", href: "/services" },
-    { name: "Business Internet", href: "/services" },
-    { name: "Fiber Optic", href: "/services" },
-    { name: "Wireless Solutions", href: "/services" },
+    { name: "FAQ", href: "/faq" },
+    { name: "Disclaimer", href: "/disclaimer" },
+    { name: "Troubleshooting", href: "/services" },
+    { name: "Support Resources", href: "/contact" },
   ],
   support: [
     { name: "Customer Support", href: "/contact" },
@@ -26,6 +26,7 @@ const footerLinks = {
     { name: "Privacy Policy", href: "/PrivacyPolicy" },
     { name: "Refund Policy", href: "/RefundPolicy" },
     { name: "Terms & Conditions", href: "/TermsAndConditions" },
+    { name: "Disclaimer", href: "/disclaimer" },
   ],
 };
 
@@ -175,10 +176,17 @@ export function Footer() {
         </div>
 
         {/* Bottom Section */}
-        <div className="py-6 sm:py-8 border-t border-muted/20">
+        <div className="py-8 sm:py-10 border-t border-muted/20">
+          {/* Mandatory Compliance Disclosure */}
+          <div className="mb-8 sm:mb-10 p-4 sm:p-6 bg-yellow-900/20 border border-yellow-700/40 rounded-lg">
+            <p className="text-xs sm:text-sm text-yellow-100 leading-relaxed">
+              <strong className="text-yellow-300">IMPORTANT DISCLOSURE:</strong> Sappnett is an independent third-party service assistance provider. We are not affiliated with, authorized by, or endorsed by any internet, cable, or service provider. We do not sell services, modify provider accounts, or represent any service provider. Brand names, if mentioned, are used strictly for informational purposes only. All trademarks belong to their respective owners.
+            </p>
+          </div>
+
           <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
             <div className="text-xs sm:text-sm text-muted-foreground text-center sm:text-left">
-              © 2025 Sappnett. All rights reserved. | Powering the future of connectivity.
+              © 2026 Sappnett. All rights reserved. | Independent service assistance platform.
             </div>
             
             <div className="flex items-center space-x-4 sm:space-x-6">

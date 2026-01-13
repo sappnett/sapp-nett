@@ -32,14 +32,14 @@ function InternetFixSection() {
     <section className="py-12 sm:py-16 lg:py-24 bg-gradient-surface">
       <div className="container mx-auto px-4 sm:px-6 lg:px-4 text-center animate-fade-in">
         <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-orbitron font-bold mb-4 sm:mb-6 text-gradient-neon">
-          Internet Down? WiFi Not Working? <br className="hidden sm:block" />
-          <span className="text-primary">We Fix Internet Problems Fast</span>
+          General Guidance & Information <br className="hidden sm:block" />
+          <span className="text-primary">About Internet & Cable Services</span>
         </h2>
         <p className="text-sm sm:text-base lg:text-lg text-muted-foreground mb-3 sm:mb-4 max-w-3xl mx-auto px-4">
-          Experiencing internet trouble or wifi outage today? Don't let internet connection problems disrupt your day. Our expert team provides instant internet troubleshooting for home internet outages, wifi connectivity issues, and network disruptions in your area.
+          Get general guidance and informational support related to internet, broadband, WiFi, and cable TV services from an independent third-party assistance provider. We help you understand your options and navigate common service questions.
         </p>
         <p className="text-base sm:text-lg text-primary font-semibold mb-6 sm:mb-8 px-4">
-          Emergency Internet Support - Call us immediately:{" "}
+          Speak with a Third-Party Internet Advisor:{" "}
           <a
             href="tel:8774969657"
             className="underline hover:text-primary/80 transition block sm:inline mt-1 sm:mt-0"
@@ -65,13 +65,13 @@ function InternetFixSection() {
             href="tel:8774969657"
             className="bg-primary text-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold shadow-lg hover:bg-primary/80 transition-all w-full sm:w-auto text-sm sm:text-base"
           >
-            Emergency Internet Support
+            Call for Independent Guidance
           </a>
           <a
             href="#SpeedTest"
             className="bg-gradient-neon text-black px-6 sm:px-8 py-3 sm:py-4 rounded-lg font-semibold shadow-lg hover:glow-primary transition-all w-full sm:w-auto text-sm sm:text-base"
           >
-            Troubleshoot Internet Now
+            Learn More
           </a>
         </div>
       </div>

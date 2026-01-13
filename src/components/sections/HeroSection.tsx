@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Wifi, Signal, Gauge, Router, Activity, Zap } from "lucide-react";
+import { ArrowRight, Wifi, Signal, Gauge, Router, Activity, Zap, AlertCircle } from "lucide-react";
 import { Link } from "react-router-dom";
 
 export function HeroSection() {
@@ -35,18 +35,23 @@ export function HeroSection() {
           
           {/* Left Content */}
           <div className="space-y-4 sm:space-y-6 animate-fade-in max-w-xl mx-auto lg:mx-0 text-center lg:text-left lg:ml-4">
+            
+            {/* Above-Fold Disclosure */}
+            <div className="bg-yellow-900/30 border border-yellow-700/50 rounded-lg p-3 sm:p-4 flex gap-3 items-start">
+              <AlertCircle className="h-5 w-5 sm:h-6 sm:w-6 text-yellow-500 flex-shrink-0 mt-0.5" />
+              <p className="text-xs sm:text-sm text-white leading-relaxed">
+                <strong>Important Disclosure:</strong> Sappnett is an independent third-party service assistance provider. We are not affiliated with, authorized by, or endorsed by any internet, cable, or service provider.
+              </p>
+            </div>
+
             {/* Main Heading */}
             <h1 className="text-2xl sm:text-3xl lg:text-5xl text-white font-semibold leading-tight">
-              Ultra-Fast
-              <br />
-              Internet & Cable
-              <br />
-              Solutions
+              Independent Internet & Cable <br className="hidden sm:block" /> Service Assistance 
             </h1>
 
             {/* Subtext */}
             <p className="text-xs sm:text-sm text-gray-400 leading-relaxed max-w-md mx-auto lg:mx-0 font-normal">
-              Never worry about internet down or wifi not working again. Lightning-fast fiber internet with 99.9% uptime, unlimited data, and emergency internet troubleshooting support for your home and business.
+              Get general guidance and informational support from an independent third-party assistance provider about internet, broadband, WiFi, and cable TV services.
             </p>
 
             {/* Customer Stat */}
@@ -58,14 +63,21 @@ export function HeroSection() {
               </div>
             </div>
 
-            {/* CTA Buttons */}
+            {/* CTA Buttons - Compliant Language */}
             <div className="flex flex-col sm:flex-row gap-3 pt-4 justify-center lg:justify-start">
               <Button 
                 size="default" 
                 className="bg-white text-black hover:bg-gray-100 font-medium px-5 py-2 text-sm rounded-lg shadow-sm transition-all w-full sm:w-auto"
                 asChild
               >
-                <a href="tel:8774969657">(877) 496-9657</a>
+                <a href="tel:8774969657">Get Assistance: (877) 496-9657</a>
+              </Button>
+              <Button 
+                size="default" 
+                className="bg-primary text-black hover:bg-primary/80 font-medium px-5 py-2 text-sm rounded-lg shadow-sm transition-all w-full sm:w-auto"
+                asChild
+              >
+                <Link to="/faq">Learn More</Link>
               </Button>
             </div>
 
@@ -76,8 +88,8 @@ export function HeroSection() {
                 <div className="text-xs text-gray-300">Customers</div>
               </div>
               <div className="flex flex-col items-center justify-center bg-white/10 rounded-xl px-3 sm:px-5 py-3 min-w-[90px] sm:min-w-[110px]">
-                <div className="text-base sm:text-lg font-bold text-green-400">99.9%</div>
-                <div className="text-xs text-gray-300">Uptime</div>
+                <div className="text-base sm:text-lg font-bold text-green-400">24/7</div>
+                <div className="text-xs text-gray-300">Availability</div>
               </div>
               <div className="flex flex-col items-center justify-center bg-white/10 rounded-xl px-3 sm:px-5 py-3 min-w-[90px] sm:min-w-[110px]">
                 <div className="text-base sm:text-lg font-bold text-blue-400">100+</div>

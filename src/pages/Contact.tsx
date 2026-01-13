@@ -10,9 +10,9 @@ const contactMethods = [
   {
     icon: Phone,
     title: "Call Us",
-    description: "Speak with our experts",
+    description: "Speak with our support team",
     contact: "(877) 496-9657",
-    action: "Call Now",
+    action: "Get Assistance",
     href: "tel:8774969657",
   },
   {
@@ -28,7 +28,7 @@ const contactMethods = [
     title: "Live Chat",
     description: "Chat with our team",
     contact: "Available 24/7",
-    action: "Start Chat",
+    action: "Request Help",
     href: "/contact",
   },
 ];
@@ -49,11 +49,17 @@ const Contact = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center animate-fade-in">
             <h1 className="text-5xl md:text-6xl font-orbitron font-bold mb-6">
-              Internet Down? WiFi Not Working? <span className="text-gradient-neon">Get Emergency Help</span>
+              Need Assistance? <span className="text-gradient-neon">Contact Support</span>
             </h1>
-            <p className="text-xl text-muted-foreground leading-relaxed">
-              Don't let internet problems ruin your day. Our 24/7 emergency internet troubleshooting team is ready to fix wifi outages, internet connection issues, and network problems instantly.
+            <p className="text-xl text-muted-foreground leading-relaxed mb-6">
+              Our independent support team is available 24/7 to assist you with service guidance and informational support related to internet, broadband, and cable TV services.
             </p>
+            {/* Compliance Disclosure */}
+            <div className="max-w-2xl mx-auto bg-yellow-900/30 border border-yellow-700/50 rounded-lg p-4 text-sm">
+              <p className="text-yellow-100">
+                <strong>Important Disclosure:</strong> Sappnett is an independent third-party service assistance provider. We are not affiliated with, authorized by, or endorsed by any service provider.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -63,10 +69,10 @@ const Contact = () => {
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-6">
-              <span className="text-gradient-neon">Emergency Internet Support</span> Available 24/7
+              <span className="text-gradient-neon">Support Available 24/7</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              When your internet is not working or you're experiencing a wifi outage, don't wait. Get instant help from our certified internet troubleshooting experts.
+              Reach out to our independent support team anytime you need guidance or assistance with service questions.
             </p>
           </div>
 

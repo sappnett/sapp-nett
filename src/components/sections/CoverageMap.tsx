@@ -53,23 +53,23 @@ export function CoverageMap() {
 			<div className="container mx-auto px-4">
 				<div className="text-center mb-16 animate-fade-in">
 					<h2 className="text-4xl md:text-5xl font-orbitron font-bold mb-6">
-						No Internet Outage{" "}
-						<span className="text-gradient-neon">In Your Area</span>
+						Available in{" "}
+						<span className="text-gradient-neon">Your Area</span>
 					</h2>
 					<p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-						Check if Sappnett's reliable internet service is available in your location. Our expanding fiber network prevents internet down situations and wifi outage emergencies across multiple cities.
+						Sappnett provides independent guidance to customers across many regions. We're available to help with service information and unbiased assistance regardless of where you're located.
 					</p>
 				</div>
 
 				<div className="max-w-6xl mx-auto">
-					{/* Map Visualization */}
+					{/* Service Area Information */}
 					<Card className="glass border-neon p-8 mb-12 animate-slide-up">
 						<div className="text-center mb-8">
 							<div className="relative w-96 h-64 mx-auto bg-gradient-to-br from-primary/10 to-secondary/10 rounded-lg border border-neon/30 overflow-hidden">
 								{/* Simulated Map Background */}
 								<div className="absolute inset-0 bg-grid-white/[0.02] bg-grid opacity-20" />
 
-								{/* Coverage Areas as Dots */}
+								{/* Service Areas as Dots */}
 								<div className="absolute top-1/4 left-1/3 w-4 h-4 bg-green-500 rounded-full animate-pulse" />
 								<div
 									className="absolute top-1/3 right-1/4 w-4 h-4 bg-green-500 rounded-full animate-pulse"
@@ -144,25 +144,24 @@ export function CoverageMap() {
 
 								{/* Legend Overlay */}
 								<div className="absolute bottom-4 right-4 text-xs text-muted-foreground">
-									Sappnett Fiber Network
+									Service Availability Map
 								</div>
 							</div>
 						</div>
 
 						<div className="text-center">
 							<h3 className="text-xl font-orbitron font-bold mb-4">
-								Regional Coverage Overview
+								Service Area Overview
 							</h3>
 							<p className="text-muted-foreground mb-6">
-								Our fiber-optic network spans across 15+ cities and growing, with
-								over 5,000km of fiber infrastructure.
+								Sappnett provides independent guidance and support to customers across many areas. We're expanding our service availability regularly to help more people.
 							</p>
 
 							{/* Legend */}
 							<div className="flex justify-center gap-6 text-sm">
 								<div className="flex items-center gap-2">
 									<div className="w-3 h-3 bg-green-500 rounded-full" />
-									<span>Active Coverage</span>
+									<span>Active Support</span>
 								</div>
 								<div className="flex items-center gap-2">
 									<div className="w-3 h-3 bg-yellow-500 rounded-full" />
@@ -176,7 +175,7 @@ export function CoverageMap() {
 						</div>
 					</Card>
 
-					{/* Coverage Areas List */}
+					{/* Service Areas List */}
 					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
 						{coverageAreas.map((area, index) => {
 							const statusInfo = getStatusInfo(area.status);
@@ -215,20 +214,20 @@ export function CoverageMap() {
 					<div className="text-center mt-16">
 						<Card className="glass border-neon p-8 max-w-2xl mx-auto">
 							<h3 className="text-2xl font-orbitron font-bold mb-4">
-								Prevent Internet Outage{" "}
+								Get Independent Guidance{" "}
 								<span className="text-gradient-neon">In Your Area</span>
 							</h3>
 							<p className="text-muted-foreground mb-6">
-								Stop dealing with internet down emergencies and wifi not working situations. Check if our reliable fiber internet service is available to end your internet connection problems forever.
+								Contact Sappnett for unbiased assistance with your internet and cable service questions. Our independent team is ready to provide transparent guidance in your region.
 							</p>
 							<div className="flex flex-col sm:flex-row gap-4 max-w-md mx-auto">
 								<input
 									type="text"
-									placeholder="Enter your zip code to check for outages"
+									placeholder="Enter your zip code"
 									className="flex-1 px-4 py-3 bg-muted/20 border border-muted rounded-lg focus:border-primary focus:outline-none"
 								/>
 								<Button className="bg-gradient-neon glow-primary hover:glow-secondary px-6" asChild>
-									<Link to="/services">Stop Internet Problems</Link>
+									<a href="tel:8774969657">(877) 496-9657</a>
 								</Button>
 							</div>
 						</Card>
